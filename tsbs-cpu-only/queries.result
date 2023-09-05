@@ -1,0 +1,260 @@
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_249' OR hostname = 'host_1403' OR hostname = 'host_1435' OR hostname = 'host_3539' OR hostname = 'host_3639' OR hostname = 'host_3075' OR hostname = 'host_815' OR hostname = 'host_2121') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 93} {3 90} {3 90} {3 89} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 91} {3 87} {3 89} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 90} {3 87} {3 88} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 94} {3 90} {3 87} {3 89} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 93} {3 89} {3 89} {3 87} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 95} {3 90} {3 88} {3 90} {3 94}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_2987' OR hostname = 'host_2302' OR hostname = 'host_3182' OR hostname = 'host_3215' OR hostname = 'host_248' OR hostname = 'host_3701' OR hostname = 'host_1103' OR hostname = 'host_3837') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 64} {3 99} {3 96} {3 74} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 99} {3 99} {3 95} {3 91} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 100} {3 100} {3 94} {3 91} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 100} {3 99} {3 96} {3 92} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 99} {3 100} {3 96} {3 90} {3 87}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 100} {3 100} {3 95} {3 92} {3 87}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_1518' OR hostname = 'host_3754' OR hostname = 'host_2294' OR hostname = 'host_2272' OR hostname = 'host_3857' OR hostname = 'host_2413' OR hostname = 'host_726' OR hostname = 'host_2083') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 92} {3 68} {3 94} {3 91} {3 61}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 69} {3 94} {3 93} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 92} {3 69} {3 95} {3 94} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 91} {3 69} {3 94} {3 93} {3 60}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 91} {3 69} {3 94} {3 94} {3 60}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 91} {3 69} {3 95} {3 94} {3 58}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_3330' OR hostname = 'host_3236' OR hostname = 'host_3414' OR hostname = 'host_754' OR hostname = 'host_1234' OR hostname = 'host_1465' OR hostname = 'host_2269' OR hostname = 'host_3058') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 56} {3 72} {3 95} {3 69} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 81} {3 93} {3 69} {3 100}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 89} {3 81} {3 91} {3 71} {3 100}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 89} {3 80} {3 91} {3 72} {3 99}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 90} {3 82} {3 90} {3 74} {3 99}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 88} {3 81} {3 91} {3 73} {3 99}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_1257' OR hostname = 'host_787' OR hostname = 'host_2857' OR hostname = 'host_410' OR hostname = 'host_716' OR hostname = 'host_1889' OR hostname = 'host_1647' OR hostname = 'host_2933') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 81} {3 62} {3 86} {3 72} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 80} {3 75} {3 87} {3 90} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 79} {3 74} {3 86} {3 90} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 78} {3 73} {3 85} {3 89} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 79} {3 73} {3 83} {3 87} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 78} {3 73} {3 82} {3 87} {3 89}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_3168' OR hostname = 'host_3818' OR hostname = 'host_627' OR hostname = 'host_2685' OR hostname = 'host_3151' OR hostname = 'host_2347' OR hostname = 'host_112' OR hostname = 'host_3312') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 98} {3 99} {3 53} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 95} {3 99} {3 100} {3 54} {3 74}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 99} {3 100} {3 56} {3 73}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 97} {3 99} {3 100} {3 56} {3 73}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 98} {3 99} {3 56} {3 73}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 98} {3 97} {3 99} {3 55} {3 73}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_104' OR hostname = 'host_718' OR hostname = 'host_736' OR hostname = 'host_3637' OR hostname = 'host_2173' OR hostname = 'host_765' OR hostname = 'host_544' OR hostname = 'host_2383') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 65} {3 86} {3 96} {3 83} {3 86}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 93} {3 96} {3 90} {3 95}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 92} {3 99} {3 90} {3 94}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 95} {3 93} {3 98} {3 90} {3 95}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 96} {3 92} {3 97} {3 90} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 96} {3 92} {3 97} {3 90} {3 95}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_1422' OR hostname = 'host_1841' OR hostname = 'host_2154' OR hostname = 'host_1322' OR hostname = 'host_123' OR hostname = 'host_1495' OR hostname = 'host_3638' OR hostname = 'host_2444') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 75} {3 86} {3 88} {3 82} {3 49}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 81} {3 86} {3 88} {3 89} {3 79}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 81} {3 86} {3 87} {3 90} {3 77}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 80} {3 86} {3 86} {3 89} {3 77}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 82} {3 85} {3 86} {3 89} {3 79}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 82} {3 83} {3 87} {3 87} {3 79}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_3737' OR hostname = 'host_2553' OR hostname = 'host_959' OR hostname = 'host_1773' OR hostname = 'host_3255' OR hostname = 'host_3603' OR hostname = 'host_2791' OR hostname = 'host_458') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 97} {3 97} {3 83} {3 67} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 97} {3 98} {3 84} {3 67} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 99} {3 84} {3 67} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 97} {3 99} {3 83} {3 66} {3 87}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 99} {3 85} {3 66} {3 86}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 98} {3 99} {3 84} {3 66} {3 86}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_427' OR hostname = 'host_971' OR hostname = 'host_563' OR hostname = 'host_762' OR hostname = 'host_1204' OR hostname = 'host_2995' OR hostname = 'host_459' OR hostname = 'host_1853') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 76} {3 99} {3 89} {3 95} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 76} {3 100} {3 89} {3 96} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 75} {3 100} {3 89} {3 97} {3 94}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 75} {3 100} {3 89} {3 98} {3 93}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 76} {3 100} {3 91} {3 97} {3 94}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 75} {3 98} {3 90} {3 97} {3 95}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_572' OR hostname = 'host_2592' OR hostname = 'host_1479' OR hostname = 'host_2852' OR hostname = 'host_3068' OR hostname = 'host_2774' OR hostname = 'host_186' OR hostname = 'host_143') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 96} {3 76} {3 87} {3 99} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 97} {3 94} {3 87} {3 99} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 99} {3 94} {3 87} {3 99} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 98} {3 94} {3 88} {3 98} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 98} {3 95} {3 89} {3 99} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 97} {3 93} {3 89} {3 98} {3 90}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_3928' OR hostname = 'host_416' OR hostname = 'host_2119' OR hostname = 'host_3124' OR hostname = 'host_1759' OR hostname = 'host_1532' OR hostname = 'host_2241' OR hostname = 'host_1988') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 80} {3 70} {3 99} {3 79} {3 65}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 79} {3 70} {3 100} {3 79} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 78} {3 68} {3 99} {3 79} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 78} {3 69} {3 99} {3 79} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 79} {3 68} {3 98} {3 80} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 80} {3 68} {3 98} {3 79} {3 91}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_3633' OR hostname = 'host_1326' OR hostname = 'host_616' OR hostname = 'host_2556' OR hostname = 'host_1179' OR hostname = 'host_1615' OR hostname = 'host_3394' OR hostname = 'host_14') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 94} {3 83} {3 88} {3 96} {3 81}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 94} {3 84} {3 98} {3 96} {3 81}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 83} {3 97} {3 97} {3 82}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 83} {3 98} {3 97} {3 81}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 84} {3 97} {3 98} {3 82}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 94} {3 83} {3 97} {3 97} {3 82}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_2654' OR hostname = 'host_2464' OR hostname = 'host_2039' OR hostname = 'host_3386' OR hostname = 'host_3509' OR hostname = 'host_3181' OR hostname = 'host_2565' OR hostname = 'host_1267') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 91} {3 78} {3 89} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 94} {3 91} {3 79} {3 88} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 94} {3 91} {3 79} {3 88} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 95} {3 90} {3 79} {3 85} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 95} {3 90} {3 79} {3 85} {3 95}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 95} {3 90} {3 79} {3 85} {3 95}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_545' OR hostname = 'host_1840' OR hostname = 'host_1875' OR hostname = 'host_3350' OR hostname = 'host_1301' OR hostname = 'host_563' OR hostname = 'host_1439' OR hostname = 'host_716') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 82} {3 73} {3 64} {3 92} {3 94}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 82} {3 73} {3 70} {3 94} {3 93}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 83} {3 73} {3 70} {3 94} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 83} {3 74} {3 73} {3 93} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 83} {3 72} {3 71} {3 92} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 85} {3 72} {3 71} {3 91} {3 91}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_1821' OR hostname = 'host_119' OR hostname = 'host_2333' OR hostname = 'host_1324' OR hostname = 'host_1348' OR hostname = 'host_2785' OR hostname = 'host_3786' OR hostname = 'host_2569') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 92} {3 98} {3 98} {3 85} {3 61}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 97} {3 98} {3 86} {3 63}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 90} {3 97} {3 96} {3 86} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 89} {3 96} {3 96} {3 85} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 90} {3 95} {3 97} {3 85} {3 63}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 91} {3 94} {3 96} {3 83} {3 63}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_1928' OR hostname = 'host_1880' OR hostname = 'host_1390' OR hostname = 'host_2048' OR hostname = 'host_445' OR hostname = 'host_3459' OR hostname = 'host_2346' OR hostname = 'host_2407') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 93} {3 98} {3 99} {3 92} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 92} {3 97} {3 100} {3 92} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 92} {3 98} {3 100} {3 91} {3 99}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 99} {3 99} {3 92} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 100} {3 100} {3 91} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 96} {3 99} {3 100} {3 92} {3 97}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_2883' OR hostname = 'host_3011' OR hostname = 'host_949' OR hostname = 'host_3377' OR hostname = 'host_1148' OR hostname = 'host_3525' OR hostname = 'host_1618' OR hostname = 'host_3791') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 89} {3 78} {3 95} {3 84} {3 84}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 83} {3 95} {3 84} {3 84}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 91} {3 82} {3 95} {3 84} {3 85}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 83} {3 94} {3 85} {3 85}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 82} {3 94} {3 86} {3 84}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 94} {3 82} {3 95} {3 85} {3 85}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_1767' OR hostname = 'host_2748' OR hostname = 'host_2486' OR hostname = 'host_2921' OR hostname = 'host_3774' OR hostname = 'host_195' OR hostname = 'host_3057' OR hostname = 'host_1194') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 87} {3 96} {3 91} {3 97}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 95} {3 94} {3 98} {3 91} {3 97}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 97} {3 98} {3 91} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 98} {3 97} {3 97} {3 92} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 96} {3 99} {3 94} {3 100}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 100} {3 96} {3 99} {3 96} {3 99}]}]
+
+###query
+ sql: 
+        SELECT
+            time_bucket(timestamp, 'PT60S') as minute,
+            max(usage_user) AS max_usage_user, max(usage_system) AS max_usage_system, max(usage_idle) AS max_usage_idle, max(usage_nice) AS max_usage_nice, max(usage_iowait) AS max_usage_iowait
+        FROM cpu
+        WHERE (hostname = 'host_1051' OR hostname = 'host_212' OR hostname = 'host_3638' OR hostname = 'host_3074' OR hostname = 'host_374' OR hostname = 'host_2989' OR hostname = 'host_3221' OR hostname = 'host_3975') AND (timestamp >= '2022-09-05T00:00:00Z') AND (timestamp < '2022-09-05T01:00:00Z')
+        GROUP BY minute
+        ORDER BY minute ASC
+        
+affected: 0
+rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 84} {3 97} {3 41} {3 99} {3 67}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 85} {3 95} {3 73} {3 100} {3 66}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 84} {3 96} {3 72} {3 100} {3 65}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 84} {3 95} {3 73} {3 100} {3 66}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 83} {3 93} {3 74} {3 99} {3 65}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 82} {3 93} {3 76} {3 100} {3 65}]}]
+
