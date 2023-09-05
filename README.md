@@ -1,1 +1,1 @@
-# dist-query-testing
+# Testing Data and Utilities for Distributed query
