@@ -9,7 +9,13 @@
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 93} {3 90} {3 90} {3 89} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 91} {3 87} {3 89} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 90} {3 87} {3 88} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 94} {3 90} {3 87} {3 89} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 93} {3 89} {3 89} {3 87} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 95} {3 90} {3 88} {3 90} {3 94}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 93} {3 90} {3 90} {3 89} {3 92}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 91} {3 87} {3 89} {3 91}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 90} {3 87} {3 88} {3 90}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 94} {3 90} {3 87} {3 89} {3 91}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 93} {3 89} {3 89} {3 87} {3 92}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 95} {3 90} {3 88} {3 90} {3 94}]}
 
 ###query
  sql: 
@@ -22,7 +28,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 64} {3 99} {3 96} {3 74} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 99} {3 99} {3 95} {3 91} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 100} {3 100} {3 94} {3 91} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 100} {3 99} {3 96} {3 92} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 99} {3 100} {3 96} {3 90} {3 87}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 100} {3 100} {3 95} {3 92} {3 87}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 98} {3 99} {3 96} {3 91} {3 89}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 99} {3 99} {3 95} {3 91} {3 90}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 100} {3 100} {3 94} {3 91} {3 90}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 100} {3 99} {3 96} {3 92} {3 89}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 99} {3 100} {3 96} {3 90} {3 87}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 100} {3 100} {3 95} {3 92} {3 87}]}
 
 ###query
  sql: 
@@ -35,7 +47,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 92} {3 68} {3 94} {3 91} {3 61}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 69} {3 94} {3 93} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 92} {3 69} {3 95} {3 94} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 91} {3 69} {3 94} {3 93} {3 60}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 91} {3 69} {3 94} {3 94} {3 60}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 91} {3 69} {3 95} {3 94} {3 58}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 92} {3 68} {3 94} {3 91} {3 61}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 69} {3 94} {3 93} {3 62}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 92} {3 69} {3 95} {3 94} {3 62}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 91} {3 69} {3 94} {3 93} {3 60}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 91} {3 69} {3 94} {3 94} {3 60}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 91} {3 69} {3 95} {3 94} {3 58}]}
 
 ###query
  sql: 
@@ -48,7 +66,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 56} {3 72} {3 95} {3 69} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 81} {3 93} {3 69} {3 100}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 89} {3 81} {3 91} {3 71} {3 100}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 89} {3 80} {3 91} {3 72} {3 99}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 90} {3 82} {3 90} {3 74} {3 99}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 88} {3 81} {3 91} {3 73} {3 99}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 91} {3 81} {3 95} {3 70} {3 99}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 81} {3 93} {3 69} {3 100}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 89} {3 81} {3 91} {3 71} {3 100}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 89} {3 80} {3 91} {3 72} {3 99}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 90} {3 82} {3 90} {3 74} {3 99}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 88} {3 81} {3 91} {3 73} {3 99}]}
 
 ###query
  sql: 
@@ -61,7 +85,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 81} {3 62} {3 86} {3 72} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 80} {3 75} {3 87} {3 90} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 79} {3 74} {3 86} {3 90} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 78} {3 73} {3 85} {3 89} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 79} {3 73} {3 83} {3 87} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 78} {3 73} {3 82} {3 87} {3 89}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 81} {3 75} {3 86} {3 87} {3 88}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 80} {3 75} {3 87} {3 90} {3 88}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 79} {3 74} {3 86} {3 90} {3 89}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 78} {3 73} {3 85} {3 89} {3 89}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 79} {3 73} {3 83} {3 87} {3 90}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 78} {3 73} {3 82} {3 87} {3 89}]}
 
 ###query
  sql: 
@@ -74,7 +104,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 98} {3 99} {3 53} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 95} {3 99} {3 100} {3 54} {3 74}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 99} {3 100} {3 56} {3 73}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 97} {3 99} {3 100} {3 56} {3 73}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 98} {3 99} {3 56} {3 73}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 98} {3 97} {3 99} {3 55} {3 73}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 98} {3 99} {3 53} {3 76}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 95} {3 99} {3 100} {3 54} {3 74}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 99} {3 100} {3 56} {3 73}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 97} {3 99} {3 100} {3 56} {3 73}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 98} {3 99} {3 56} {3 73}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 98} {3 97} {3 99} {3 55} {3 73}]}
 
 ###query
  sql: 
@@ -87,7 +123,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 65} {3 86} {3 96} {3 83} {3 86}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 93} {3 96} {3 90} {3 95}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 92} {3 99} {3 90} {3 94}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 95} {3 93} {3 98} {3 90} {3 95}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 96} {3 92} {3 97} {3 90} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 96} {3 92} {3 97} {3 90} {3 95}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 92} {3 92} {3 96} {3 89} {3 95}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 93} {3 93} {3 96} {3 90} {3 95}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 92} {3 99} {3 90} {3 94}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 95} {3 93} {3 98} {3 90} {3 95}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 96} {3 92} {3 97} {3 90} {3 96}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 96} {3 92} {3 97} {3 90} {3 95}]}
 
 ###query
  sql: 
@@ -100,7 +142,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 75} {3 86} {3 88} {3 82} {3 49}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 81} {3 86} {3 88} {3 89} {3 79}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 81} {3 86} {3 87} {3 90} {3 77}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 80} {3 86} {3 86} {3 89} {3 77}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 82} {3 85} {3 86} {3 89} {3 79}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 82} {3 83} {3 87} {3 87} {3 79}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 82} {3 86} {3 88} {3 89} {3 79}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 81} {3 86} {3 88} {3 89} {3 79}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 81} {3 86} {3 87} {3 90} {3 77}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 80} {3 86} {3 86} {3 89} {3 77}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 82} {3 85} {3 86} {3 89} {3 79}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 82} {3 83} {3 87} {3 87} {3 79}]}
 
 ###query
  sql: 
@@ -113,7 +161,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 97} {3 97} {3 83} {3 67} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 97} {3 98} {3 84} {3 67} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 99} {3 84} {3 67} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 97} {3 99} {3 83} {3 66} {3 87}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 99} {3 85} {3 66} {3 86}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 98} {3 99} {3 84} {3 66} {3 86}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 97} {3 97} {3 83} {3 67} {3 89}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 97} {3 98} {3 84} {3 67} {3 90}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 99} {3 84} {3 67} {3 88}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 97} {3 99} {3 83} {3 66} {3 87}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 99} {3 85} {3 66} {3 86}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 98} {3 99} {3 84} {3 66} {3 86}]}
 
 ###query
  sql: 
@@ -126,7 +180,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 76} {3 99} {3 89} {3 95} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 76} {3 100} {3 89} {3 96} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 75} {3 100} {3 89} {3 97} {3 94}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 75} {3 100} {3 89} {3 98} {3 93}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 76} {3 100} {3 91} {3 97} {3 94}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 75} {3 98} {3 90} {3 97} {3 95}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 76} {3 99} {3 89} {3 95} {3 96}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 76} {3 100} {3 89} {3 96} {3 96}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 75} {3 100} {3 89} {3 97} {3 94}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 75} {3 100} {3 89} {3 98} {3 93}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 76} {3 100} {3 91} {3 97} {3 94}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 75} {3 98} {3 90} {3 97} {3 95}]}
 
 ###query
  sql: 
@@ -139,7 +199,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 96} {3 76} {3 87} {3 99} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 97} {3 94} {3 87} {3 99} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 99} {3 94} {3 87} {3 99} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 98} {3 94} {3 88} {3 98} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 98} {3 95} {3 89} {3 99} {3 91}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 97} {3 93} {3 89} {3 98} {3 90}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 96} {3 95} {3 87} {3 99} {3 92}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 97} {3 94} {3 87} {3 99} {3 91}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 99} {3 94} {3 87} {3 99} {3 92}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 98} {3 94} {3 88} {3 98} {3 91}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 98} {3 95} {3 89} {3 99} {3 91}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 97} {3 93} {3 89} {3 98} {3 90}]}
 
 ###query
  sql: 
@@ -152,7 +218,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 80} {3 70} {3 99} {3 79} {3 65}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 79} {3 70} {3 100} {3 79} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 78} {3 68} {3 99} {3 79} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 78} {3 69} {3 99} {3 79} {3 88}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 79} {3 68} {3 98} {3 80} {3 89}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 80} {3 68} {3 98} {3 79} {3 91}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 80} {3 70} {3 99} {3 79} {3 89}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 79} {3 70} {3 100} {3 79} {3 90}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 78} {3 68} {3 99} {3 79} {3 89}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 78} {3 69} {3 99} {3 79} {3 88}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 79} {3 68} {3 98} {3 80} {3 89}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 80} {3 68} {3 98} {3 79} {3 91}]}
 
 ###query
  sql: 
@@ -165,7 +237,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 94} {3 83} {3 88} {3 96} {3 81}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 94} {3 84} {3 98} {3 96} {3 81}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 83} {3 97} {3 97} {3 82}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 83} {3 98} {3 97} {3 81}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 84} {3 97} {3 98} {3 82}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 94} {3 83} {3 97} {3 97} {3 82}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 94} {3 83} {3 98} {3 96} {3 82}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 94} {3 84} {3 98} {3 96} {3 81}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 93} {3 83} {3 97} {3 97} {3 82}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 83} {3 98} {3 97} {3 81}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 84} {3 97} {3 98} {3 82}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 94} {3 83} {3 97} {3 97} {3 82}]}
 
 ###query
  sql: 
@@ -178,7 +256,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 91} {3 78} {3 89} {3 90}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 94} {3 91} {3 79} {3 88} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 94} {3 91} {3 79} {3 88} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 95} {3 90} {3 79} {3 85} {3 96}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 95} {3 90} {3 79} {3 85} {3 95}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 95} {3 90} {3 79} {3 85} {3 95}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 91} {3 78} {3 89} {3 96}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 94} {3 91} {3 79} {3 88} {3 96}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 94} {3 91} {3 79} {3 88} {3 96}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 95} {3 90} {3 79} {3 85} {3 96}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 95} {3 90} {3 79} {3 85} {3 95}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 95} {3 90} {3 79} {3 85} {3 95}]}
 
 ###query
  sql: 
@@ -191,7 +275,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 82} {3 73} {3 64} {3 92} {3 94}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 82} {3 73} {3 70} {3 94} {3 93}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 83} {3 73} {3 70} {3 94} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 83} {3 74} {3 73} {3 93} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 83} {3 72} {3 71} {3 92} {3 92}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 85} {3 72} {3 71} {3 91} {3 91}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 82} {3 73} {3 70} {3 97} {3 94}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 82} {3 73} {3 70} {3 94} {3 93}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 83} {3 73} {3 70} {3 94} {3 92}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 83} {3 74} {3 73} {3 93} {3 92}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 83} {3 72} {3 71} {3 92} {3 92}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 85} {3 72} {3 71} {3 91} {3 91}]}
 
 ###query
  sql: 
@@ -204,7 +294,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 92} {3 98} {3 98} {3 85} {3 61}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 97} {3 98} {3 86} {3 63}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 90} {3 97} {3 96} {3 86} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 89} {3 96} {3 96} {3 85} {3 62}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 90} {3 95} {3 97} {3 85} {3 63}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 91} {3 94} {3 96} {3 83} {3 63}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 92} {3 98} {3 98} {3 85} {3 61}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 97} {3 98} {3 86} {3 63}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 90} {3 97} {3 96} {3 86} {3 62}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 89} {3 96} {3 96} {3 85} {3 62}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 90} {3 95} {3 97} {3 85} {3 63}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 91} {3 94} {3 96} {3 83} {3 63}]}
 
 ###query
  sql: 
@@ -217,7 +313,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 93} {3 98} {3 99} {3 92} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 92} {3 97} {3 100} {3 92} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 92} {3 98} {3 100} {3 91} {3 99}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 99} {3 99} {3 92} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 100} {3 100} {3 91} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 96} {3 99} {3 100} {3 92} {3 97}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 93} {3 98} {3 99} {3 92} {3 98}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 92} {3 97} {3 100} {3 92} {3 98}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 92} {3 98} {3 100} {3 91} {3 99}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 99} {3 99} {3 92} {3 98}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 100} {3 100} {3 91} {3 98}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 96} {3 99} {3 100} {3 92} {3 97}]}
 
 ###query
  sql: 
@@ -230,7 +332,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 89} {3 78} {3 95} {3 84} {3 84}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 83} {3 95} {3 84} {3 84}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 91} {3 82} {3 95} {3 84} {3 85}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 83} {3 94} {3 85} {3 85}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 82} {3 94} {3 86} {3 84}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 94} {3 82} {3 95} {3 85} {3 85}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 89} {3 83} {3 95} {3 84} {3 84}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 90} {3 83} {3 95} {3 84} {3 84}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 91} {3 82} {3 95} {3 84} {3 85}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 93} {3 83} {3 94} {3 85} {3 85}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 94} {3 82} {3 94} {3 86} {3 84}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 94} {3 82} {3 95} {3 85} {3 85}]}
 
 ###query
  sql: 
@@ -243,7 +351,13 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 87} {3 96} {3 91} {3 97}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 95} {3 94} {3 98} {3 91} {3 97}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 97} {3 98} {3 91} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 98} {3 97} {3 97} {3 92} {3 98}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 96} {3 99} {3 94} {3 100}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 100} {3 96} {3 99} {3 96} {3 99}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 95} {3 94} {3 96} {3 91} {3 97}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 95} {3 94} {3 98} {3 91} {3 97}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 96} {3 97} {3 98} {3 91} {3 98}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 98} {3 97} {3 97} {3 92} {3 98}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 97} {3 96} {3 99} {3 94} {3 100}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 100} {3 96} {3 99} {3 96} {3 99}]}
 
 ###query
  sql: 
@@ -256,5 +370,11 @@ rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice ma
         ORDER BY minute ASC
         
 affected: 0
-rows: [{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 84} {3 97} {3 41} {3 99} {3 67}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 85} {3 95} {3 73} {3 100} {3 66}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 84} {3 96} {3 72} {3 100} {3 65}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 84} {3 95} {3 73} {3 100} {3 66}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 83} {3 93} {3 74} {3 99} {3 65}]} {[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 82} {3 93} {3 76} {3 100} {3 65}]}]
+rows: 
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336000000} {3 84} {3 97} {3 72} {3 99} {3 67}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662336600000} {3 85} {3 95} {3 73} {3 100} {3 66}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337200000} {3 84} {3 96} {3 72} {3 100} {3 65}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662337800000} {3 84} {3 95} {3 73} {3 100} {3 66}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662338400000} {3 83} {3 93} {3 74} {3 99} {3 65}]}
+{[minute max_usage_user max_usage_system max_usage_idle max_usage_nice max_usage_iowait] [{5 1662339000000} {3 82} {3 93} {3 76} {3 100} {3 65}]}
 
